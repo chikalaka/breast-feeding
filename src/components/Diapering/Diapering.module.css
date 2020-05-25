@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.types {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.previous {
+  margin-bottom: 10px;
+}
+
+.types > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.addButton {
+  background-color: #2d397a !important;
+}

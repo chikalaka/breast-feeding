@@ -1,0 +1,19 @@
+.itemContainer {
+  border-radius: 1000px;
+  display: flex;
+  align-items: center;
+}
+
+.bullet {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.bulletBorder {
+  position: absolute;
+  z-index: 10;
+  border-radius: 50%;
+}

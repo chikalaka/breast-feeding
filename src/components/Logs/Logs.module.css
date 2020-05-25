@@ -1,0 +1,65 @@
+.itemContainer {
+  background-color: #43e192;
+  margin-top: 10px;
+}
+.bullet {
+  margin-right: 17px;
+}
+.bulletBorder {
+  border: #eeeeee 7px solid;
+}
+.content {
+  padding: 5px 10px 5px 0;
+}
+
+.pooBullet {
+  margin-top: -4px;
+  margin-right: -2px;
+}
+
+.card {
+  position: relative;
+  background-color: #43e192;
+  margin-top: 12px;
+  border-radius: 1000px;
+  display: flex;
+  align-items: center;
+  padding: 7px 10px 7px 50px;
+}
+
+.icon {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: -6px;
+  padding: 6px;
+  width: 20px;
+  height: 20px;
+  z-index: 10;
+  border-radius: 50%;
+  border: #eeeeee 7px solid;
+}
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
+  width: fit-content;
+  padding: 5px;
+  background: aliceblue;
+  margin-top: -12px !important;
+  margin-bottom: 10px;
+}
+
+.filters > * + * {
+  margin-left: 2px;
+}
+
+.filters > div {
+  padding: 5px;
+}
+
+.active {
+  border-bottom: #61dafb 2px solid;
+}

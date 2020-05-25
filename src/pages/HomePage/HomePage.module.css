@@ -1,0 +1,56 @@
+.container {
+}
+
+.container > * + * {
+  margin-top: 8px;
+}
+
+.feeding {
+  height: 125px;
+}
+
+.summary > * + * {
+  margin-top: 15px;
+}
+
+.summaryTitle {
+  font-weight: 700;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.logsModal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.statsButton {
+  background: #61dafb;
+}
+
+.logsButton {
+  background: darkcyan;
+}
+
+.modals {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.topRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topRow > div {
+  padding-right: 12px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+
+.diaperingGraph {
+  margin-top: 15px;
+}

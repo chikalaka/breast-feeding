@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px;
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: #ecc737 !important;
+}

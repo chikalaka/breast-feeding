@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.next {
+  position: absolute;
+  left: 0;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.side {
+  font-size: 30px !important;
+  padding: 10px 45px !important;
+  background-color: #ecc737 !important;
+}

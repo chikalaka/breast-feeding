@@ -1,0 +1,8 @@
+.pickers {
+  display: flex;
+  align-items: center;
+}
+
+.previous {
+    margin-bottom: 10px;
+}

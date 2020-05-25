@@ -1,0 +1,8 @@
+.dialogContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.dialogContent > div {
+    align-self: center;
+}

@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.previous {
+  margin-bottom: 10px;
+}
+
+.sides {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.sideContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialogContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.dialogContent > div {
+  align-self: center;
+}
+
+.button {
+  background-color: #ecc737 !important;
+}
+
+.addButton {
+  background-color: #b89c2d !important;
+}

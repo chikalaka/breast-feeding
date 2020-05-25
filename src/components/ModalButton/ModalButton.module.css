@@ -1,0 +1,24 @@
+.icon {
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
+}
+
+.content {
+  position: relative;
+  background: #eeeeee;
+  padding: 20px;
+  overflow: auto;
+  width: 75vw;
+  height: 85vh;
+}
+
+.content:focus {
+  outline: none !important;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
